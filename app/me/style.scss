@@ -1,0 +1,33 @@
+:root {
+  --bg: #fff;
+  // --bg-card: #fff;
+  --fg: #000;
+  --fg-light: #333;
+  --border: #ddd;
+  background-color: var(--bg);
+  color: var(--fg-light);
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.page {
+  padding: 20px 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--fg);
+}
